@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>form 2</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Input tag</legend>
+        <ul>
+          <li>
+            <label for="email">이메일</label>
+            <input type="email" id="email" />
+          </li>
+          <li>
+            <label for="tel">전화번호</label>
+            <input type="tel" id="tel" />
+          </li>
+          <li>
+            <label for="url">url</label>
+            <input type="url" id="url" />
+          </li>
+          <li>
+            <label for="number">number</label>
+            <input type="number" id="number" min="1" max="10" />
+          </li>
+          <li>
+            <label for="range">range</label>
+            <input type="range" id="range" />
+          </li>
+          <li>
+            <label for="password">password</label>
+            <input type="password" id="password" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>날짜 관련</legend>
+        <ul>
+          <li>
+            <label for="date">date</label>
+            <input type="date" id="date" min="2021-01-01" max="2030-01-01" />
+          </li>
+          <li>
+            <label for="month">month</label>
+            <input type="month" id="month" min="2021-01" max="2030-01" />
+          </li>
+          <li>
+            <label for="week">week</label>
+            <input type="week" id="week" min="2021-01" max="2030-01" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>시간관련</legend>
+        <ul>
+          <li>
+            <label for="time">time</label>
+            <input type="time" id="time" min="16:00" max="18:00" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>그 외</legend>
+        <ul>
+          <li>
+            <label for="file">파일</label>
+            <input type="file" multiple />
+          </li>
+          <li>
+            <input type="hidden" name="" value="" />
+          </li>
+        </ul>
+      </fieldset>
+      <input type="submit" value="제출하기" />
+    </form>
+  </body>
+</html>

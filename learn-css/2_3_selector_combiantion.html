@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>selector combination</title>
+    <style>
+      section li {
+        color: blue;
+      }
+      section span {
+        color: red;
+      }
+      section > ul > li {
+        color: yellow;
+        background-color: black;
+      }
+
+      /* p뒤에 나오는 형제 span들을 대상으로함*/
+      p ~ span {
+        color: red;
+      }
+
+      /*인접형제 결합자
+      p 뒤에 나오는 첫뻔째 code에만 적용*/
+
+      p + code {
+        font-size: 30px;
+      }
+      .first + li {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>헬스</h1>
+      <hr />
+      <p>위키백과, 우리모 두의 백과사전.</p>
+      <p>헬스는 기본적인 건강을 가리키며 그 외에 다음을 가리킨다.</p>
+      <ul>
+        <li>의료</li>
+        <li>보건</li>
+        <li>체렴</li>
+        <li>패션헬스</li>
+        <li>헬스클럽</li>
+        <li>구글헬스: <span>구글</span>이 제공하는 ~~</li>
+      </ul>
+    </section>
+
+    <hr />
+    <section>
+      <span>이건 빨강이 아닙니다.</span>
+      <p>여기 문단이 잇씁니다.</p>
+      <code>여긴 코드가 있는 곳입니다.</code>
+      <span>이것도 빨강입니다.</span>
+      <code>코드가 있어요</code>
+      <span>이것도 빨강입니다.</span>
+    </section>
+    <hr />
+    <ul></ul>
+    <li class="first">01item</li>
+    <li>02item</li>
+    <li>03item</li>
+  </body>
+</html>

@@ -24,3 +24,5 @@ https://gymcoding.notion.site/Emmet-3b8a259ba1cf412388443234c8bbfef5
 
 - window기준 alt + ctrl + 화살표로 아래아래
 - ctrl + → 가능
+
+### Semantic(의미론적)

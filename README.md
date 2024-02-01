@@ -19,3 +19,8 @@ https://gymcoding.notion.site/acf439e5e4b04e079104439153a7f223
 https://docs.emmet.io/abbreviations/syntax/
 https://gymcoding.notion.site/Emmet-3b8a259ba1cf412388443234c8bbfef5
 ```
+
+### multiselect
+
+- window기준 alt + ctrl + 화살표로 아래아래
+- ctrl + → 가능

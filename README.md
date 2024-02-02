@@ -26,5 +26,3 @@ https://gymcoding.notion.site/Emmet-3b8a259ba1cf412388443234c8bbfef5
 - ctrl + → 가능
 
 ### Semantic(의미론적)
-
-### 마진(margin) 중첩

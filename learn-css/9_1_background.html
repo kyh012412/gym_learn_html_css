@@ -30,6 +30,30 @@
       .attachment-local {
         background-attachment: local;
       }
+
+      .background-size {
+        width: 300px;
+        height: 100px;
+        background-image: url('/assets/imgs/deer.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid black;
+      }
+      .linear-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid black;
+        background: linear-gradient(to top right, red, blue);
+        background: linear-gradient(45deg, red 50%, blue, black, white);
+        /*방향 각도 가능, 여러개의 색상가능 */
+      }
+      .radial-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid blue;
+        background: radial-gradient(circle at 10% 50%, white, yellow, black);
+      }
     </style>
   </head>
   <body>
@@ -118,6 +142,13 @@
       saepe ea eum, ipsa ipsum reprehenderit dolore sequi, error et? In placeat
       fugiat aut eveniet dolor blanditiis dolorem eos.
     </div>
+    <h3>background-size</h3>
+    <div class="background-size"></div>
+    <h3>linear-gradient</h3>
+    <div class="linear-gradient"></div>
+
+    <h3>radial-gradient</h3>
+    <div class="radial-gradient"></div>
 
     <div style="height: 1000px; width: 10px; background-color: red"></div>
   </body>

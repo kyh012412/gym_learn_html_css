@@ -68,3 +68,7 @@ https://gymcoding.notion.site/Emmet-3b8a259ba1cf412388443234c8bbfef5
 ### z-index 속성
 
 - position (relative,absolute,fixed) 속성이 적용된 요소에서만 작동합니다. / 큰숫자의 값이 더 위에나온다. (최우선으로 보인다.)
+
+### background-size
+
+- background-size : contain (여백이 조금생김) / background-size : cover (꽉채우면서 이미지가 조금잘림) + background-position:center로 조합

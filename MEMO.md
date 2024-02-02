@@ -50,3 +50,11 @@
 ### vw,vh
 
 상대적 비율(백분율)
+
+### line-height
+
+줄 간격 (단위로 px를써도 ok 추천하는 크기 1.8rem)
+
+### letter-spacing
+
+글자 간격 (디폴트 0rem)

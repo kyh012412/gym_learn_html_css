@@ -1,33 +1,24 @@
-```CSS
-<style>
-      * {
-        text-align: center;
-      }
-      .header {
-        border: 2px solid red;
-        line-height: 55px;
-        height: 55px;
-      }
-      .nav {
-        border: 2px solid blue;
-        height: 110px;
-      }
-      .main {
-        border: 2px solid blue;
-        height: 300px;
-        line-height: 300px;
-      }
-      .footer {
-        border: 2px solid black;
-        height: 55px;
-        line-height: 55px;
-      }
-      ul {
-        list-style: none;
-        padding-left: 0px;
-      }
-</style>
+### 정리
+
+- HTML이란?
+
+### Emmet
+
+자동완성 기능하여 작성시간을 단축시켜주는기능
+
+```link
+https://docs.emmet.io/abbreviations/syntax/
+https://gymcoding.notion.site/Emmet-3b8a259ba1cf412388443234c8bbfef5
 ```
+
+### multiselect
+
+- window기준 alt + ctrl + 화살표로 아래아래
+- ctrl + → 가능
+
+### Semantic(의미론적)
+
+### display:none과 visibility:hidden의 차이
 
 ### 인라인요소 vs 블록요소
 
@@ -63,3 +54,17 @@
 
 - content-box
 - border-box
+
+### float
+
+### position
+
+- static : 일반적흐름에 따르도록 (기본값)
+- relative : 원래있어야할위치(static)보다 상대적인 값을 더줘서 이동시킬수 있음
+- absolute : 부모를 기준으로 움직임, / 부모중에 포지션이 relative,absolute,fixed가 없다면 가장위의 태그(body)가 기준이 된다.
+- fixed : 일반적흐름 제거 / viewport 기준으로 스크롤되어도 움직이지 않는 고정된 자리를 갖게됨.
+- sticky : 일반적인 흐름을 따르다가 스크롤이동으로 화면가장자리가 감지되면 fixed 가 되는 속성
+
+### z-index 속성
+
+- position (relative,absolute,fixed) 속성이 적용된 요소에서만 작동합니다. / 큰숫자의 값이 더 위에나온다. (최우선으로 보인다.)

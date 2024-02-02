@@ -26,3 +26,5 @@ https://gymcoding.notion.site/Emmet-3b8a259ba1cf412388443234c8bbfef5
 - ctrl + → 가능
 
 ### Semantic(의미론적)
+
+### display:none과 visibility:hidden의 차이

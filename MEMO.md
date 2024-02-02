@@ -58,3 +58,8 @@
 ### letter-spacing
 
 글자 간격 (디폴트 0rem)
+
+### box-sizing
+
+- content-box
+- border-box
